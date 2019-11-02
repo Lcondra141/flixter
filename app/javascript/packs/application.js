@@ -4,7 +4,12 @@
 // that code so it'll be compiled.
 
 require("@rails/ujs").start()
+//= require jquery
+//= require jquery_ujs
 require("turbolinks").start()
+//= require bootstrap-sprockets
+//= require popper
+//= require tether
 require("@rails/activestorage").start()
 require("channels")
 
