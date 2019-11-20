@@ -68,3 +68,17 @@ gem 'simple_form'
 gem 'devise'
 
 gem 'carrierwave', '~> 2.0'
+
+gem 'figaro'
+
+gem 'fog-aws'
+
+gem 'stripe'
+
+gem 'ranked-model'
+
+gem 'pry'
+
+gem 'mini_magick'
+
+gem 'carrierwave-aws'
