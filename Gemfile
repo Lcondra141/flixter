@@ -82,3 +82,5 @@ gem 'pry'
 gem 'mini_magick'
 
 gem 'carrierwave-aws'
+
+gem 'jquery-ui-rails'
