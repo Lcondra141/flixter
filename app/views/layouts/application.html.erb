@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Zapper</title>
+  <title>Flixter</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -74,38 +74,46 @@
 <br class="clr" />
 
 <div id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-6 col-sm-3">
-        <b>Teachers</b>
-        <br />
-        <%= link_to 'Teach a Course', new_instructor_course_path %>
-        <br />
-        <%= link_to 'My Dashboard', dashboard_path %>
-      </div>
-      <div class="col-6 col-sm-3">
-        <b>About</b>
-        <br />
-        <%= link_to 'Team', '#' %>
-        <br />
-        <%= link_to 'Careers', '#' %>
-        <br />
-        <%= link_to 'Privacy Policy', privacy_path %>
-      </div>
+  <div class="col-xs-12 col-sm-3">
+    <b>Teachers</b>
+    <br />
+    <%= link_to 'Add a Course', new_instructor_course_path %>
+    <br />
+    <%= link_to 'My Dashboard', dashboard_path %>
+  </div>
+  <div class="col-xs-12 col-sm-3">
+    <b>About</b>
+    <br />
+    <%= link_to 'Team', team_path %>
+    <br />
+    <%= link_to 'Careers', careers_path %>
+    <br />
+    <%= link_to 'Privacy Policy', privacy_path %>
+  </div>
   <div class="col-xs-12 col-sm-3">
     <b>Contact</b>
     <br />
     lcondra5@gmail.com
     <br />
-    141 Myers Subdivision
+    123 Main Street
     <br />
     Rogersville, TN 37857
   </div>
   <div class="col-xs-12 col-sm-3 social">
+    <b>Social</b>
+    <br />
+  <%= link_to 'http://github.com/lcondra141' do %>
+    <span class="fa fa-github-square fa-2x social-button"></span>
+  <% end %>
+  <%= link_to 'http://facebook.com/landoncondra' do %>
+    <span class="fa fa-github-square fa-2x social-button"></span>
+  <% end %>
+  <%= link_to 'http://twitter/landoncondra23' do %>
+    <span class="fa fa-github-square fa-2x social-button"></span>
+  <% end %>
   </div>
 </div>
 </div>
 </body>
 </html>
-
 
